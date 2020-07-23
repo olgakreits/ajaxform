@@ -18,7 +18,7 @@
         $subject = "Письмо с обратной связи"; /*Тема письма*/
         $headers = "MIME-Version: 1.0\r\n";
         $headers .= "Content-type: text/html; charset=utf-8\r\n";
-        $headers .= "From: <o.o.kolesnikova@yandex.ru>\r\n";/*ОТ КОГО*/
+        $headers .= "From: <test@yandex.ru>\r\n";/*ОТ КОГО*/
 
         /*ВО ВНУТРЬ ПЕРЕМЕННОЙ $message ЗАПИСЫВАЕМ ДАННЫЕ ИЗ ПОЛЕЙ */
         $message .= "Имя пользователя: ".$name."\n";
